@@ -40,3 +40,24 @@ body{
     border-radius: 24px;
     background: #9796f0;
 }
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.title{
+    float: inherit;
+    margin-left: 20%;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0a3071;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    
+}
