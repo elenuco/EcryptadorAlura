@@ -9,26 +9,18 @@ body {
     width: 960px;
     height: 650px;
     padding: 5px;
-    background: #acb6e5;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #86fde8, #acb6e5);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .logo {
     width: 100%;
     float: left;
-    background: #9796f0;
 }
 
 .left {
     float: left;
     width: 70%;
-    height: 80%;
+    height: 70%;
     border-radius: 24px;
-    background: #fbc7d4;
 }
 
 .rigth {
@@ -36,7 +28,7 @@ body {
     width: 30%;
     height: auto;
     border-radius: 24px;
-    background-color: #fbc7d4;
+    background: white;
 }
 
 .left-button {
@@ -44,7 +36,6 @@ body {
     width: 70%;
     height: auto;
     border-radius: 24px;
-    background: #9796f0;
 }
 
 .logoImg {
@@ -183,4 +174,14 @@ btn-desencryptar {
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
 }
