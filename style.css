@@ -74,7 +74,7 @@ body {
     margin-right: 5%;
 }
 
-texto2 {
+#texto2 {
     float: left;
     margin-left: 10%;
     color: #495057;
@@ -149,7 +149,7 @@ texto2 {
     flex-grow: 0;
 }
 
-btn-desencryptar {
+#btn-desencryptar {
     /* Button */
     box-sizing: border-box;
 
