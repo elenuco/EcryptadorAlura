@@ -1,0 +1,23 @@
+{
+  "name": "ecryptadoralura",
+  "version": "1.0.0",
+  "description": "Encryptador para insidia de Alura Latam",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenuco/EcryptadorAlura.git"
+  },
+  "keywords": [],
+  "author": "Evelyn Elena Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenuco/EcryptadorAlura/issues"
+  },
+  "homepage": "https://github.com/elenuco/EcryptadorAlura#readme",
+  "dependencies": {
+    "live-server": "1.2.2"
+  }
+}

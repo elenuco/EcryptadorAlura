@@ -9,7 +9,7 @@ function encryptar(){
     //Aca inicia la encryptacion
         document.getElementById("imgDerecha").style.display = "none";
         document.getElementById("texto").style.display= "none";
-        document.getElementById("imgDerecha").innerHTML = "txtCypher";
+        document.getElementById("texto2").innerHTML = txtCypher;
         document.getElementById("copiar").style = "show";
         document.getElementById("copiar").style.display = "inherint";
     
@@ -25,7 +25,7 @@ function desencryptar(){
     //Aca inicia la encryptacion
         document.getElementById("imgDerecha").style.display = "none";
         document.getElementById("texto").style.display= "none";
-        document.getElementById("imgDerecha").innerHTML = "txtCypher";
+        document.getElementById("texto2").innerHTML = txtCypher;
         document.getElementById("copiar").style = "show";
         document.getElementById("copiar").style.display = "inherint";
     
