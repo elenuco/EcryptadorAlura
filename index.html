@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge 1</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <div class="container">
-     <div class="logo">
-     <img class="logoImg" src="img/Logo.jpeg">
-     <h1 class="title">Encryptador de mensajes</h1>
-     </div>
-     <div class="left">
-        <input class="text-input" type="text" placeholder="Ingrese el texto aqui">
-     </div>
-     <div class="right">
-        <h1>aca va el panel derecho</h1>
-     </div>
-     <div class="left-button">
-      Aca van unos botones.
-     </div>
+        <div class="logo">
+            <img class="logoImg" src="img/logo.png">
+            <h1 class="title">Encryptador de mensajes</h1>
+        </div>
+        <div class="left">
+            <input class="text-input" id="inputText" type="text" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="right">
+            <img src="img/Muneco.png" id="imgDerecha">
+            <h1 id="texto">Ningun Mansaje fue Encontrado</h1>
+            <textarea name="" id="texto2" cols="30" rows="10">Ingrese el texto que desee Encriptar o Desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">Copiar!</button>
+        </div>
+        <div class="left-button">
+            <p id="texto3">Solo letras minusculas y sin acento</p>
+            <button type="button" id="btn-encryptar" onclick="encryptar()">Encriptar</button>
+            <button type="button" id="btn-desencryptar" onclick="desencryptar()">Desencriptar</button>
+        </div>
     </div>
 </body>
+
 </html>
